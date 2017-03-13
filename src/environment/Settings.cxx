@@ -329,7 +329,7 @@ void Settings::setDefaultSettings() {
 
 	// Game-Specific Settings
 
-		// Mortal Kombat
+        // Mortal Kombat
 	boolSettings.emplace(std::make_pair("MK_random_position", true));
 	stringSettings.emplace(std::make_pair("MK_difficulty", "medium"));
 	stringSettings.emplace(std::make_pair("MK_player1_character", "cage"));
@@ -343,7 +343,7 @@ void Settings::setDefaultSettings() {
 	intSettings.emplace(std::make_pair("SF2THF_difficulty", 3));
 
         // Super Mario Kart
-        stringSettings.emplace(std::make_pair("SUPER_MARIO_KART_player1_character", "peach"));
+        stringSettings.emplace(std::make_pair("SUPER_MARIO_KART_player1_character", "bowser"));
         
 
 	for (map<string, string>::iterator it = stringSettings.begin();
