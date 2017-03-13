@@ -34,6 +34,7 @@
 #include "supported/StreetFighterII.hpp"
 #include "supported/StreetFighterIITurboHyperFighting.hpp"
 #include "supported/BustAMove.hpp"
+#include "supported/SuperMarioKart.hpp"
 
 // genesis games
 #include "supported/SonicTheHedgehog.hpp"
@@ -158,26 +159,28 @@ static const RomSettings *roms[]  = {
 //    new ZaxxonSettings(),
 
 	// SNES games
-	new AtariCollectionSettings(),
-	new ClassicKongSettings(),
-	new FinalFightSettings(),
-	new FZeroSettings(),
-	new FZeroNoSpeedSettings(),
-	new GradiusIIISettings(),
+    new AtariCollectionSettings(),
+    new ClassicKongSettings(),
+    new FinalFightSettings(),
+    new FZeroSettings(),
+    new FZeroNoSpeedSettings(),
+    new GradiusIIISettings(),
     new MortalKombatSettings(),
     new MortalKombat2PlayersSettings(),
-	new NBAGiveNGoSettings(),
+    new NBAGiveNGoSettings(),
     new SuperMarioAllStarsSettings(),
     new SuperMarioAllStarsNoRightSettings(),
     new SuperMarioWorldSettings(),
-	new TetrisAndDrMarioSettings(),
-	new WolfensteinSettings(),
-	new AladdinSettings(),
-	new StreetFighterIISettings(),
-	new StreetFighterIITurboHyperFightingSettings(),
-	new BustAMoveSettings(),
-//	Genesis games
-	new SonicTheHedgehogSettings()
+    new TetrisAndDrMarioSettings(),
+    new WolfensteinSettings(),
+    new AladdinSettings(),
+    new StreetFighterIISettings(),
+    new StreetFighterIITurboHyperFightingSettings(),
+    new BustAMoveSettings(),
+    //	Genesis games
+    new SonicTheHedgehogSettings(),
+    new SuperMarioKartSettings()
+    
 };
 
 
