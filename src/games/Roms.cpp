@@ -184,7 +184,6 @@ static const RomSettings *roms[]  = {
     //	Genesis games
     new SonicTheHedgehogSettings()
     
-
 };
 
 
