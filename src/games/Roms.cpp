@@ -35,6 +35,7 @@
 #include "supported/StreetFighterIITurboHyperFighting.hpp"
 #include "supported/BustAMove.hpp"
 #include "supported/SuperMarioKart.hpp"
+#include "supported/ContraIII.hpp"
 
 // genesis games
 #include "supported/SonicTheHedgehog.hpp"
@@ -177,10 +178,13 @@ static const RomSettings *roms[]  = {
     new StreetFighterIISettings(),
     new StreetFighterIITurboHyperFightingSettings(),
     new BustAMoveSettings(),
+    new SuperMarioKartSettings(),
+    new ContraIIISettings(),
+    new BustAMoveSettings(),
     //	Genesis games
-    new SonicTheHedgehogSettings(),
-    new SuperMarioKartSettings()
+    new SonicTheHedgehogSettings()
     
+
 };
 
 
