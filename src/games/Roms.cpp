@@ -34,12 +34,10 @@
 #include "supported/StreetFighterII.hpp"
 #include "supported/StreetFighterIITurboHyperFighting.hpp"
 #include "supported/BustAMove.hpp"
-<<<<<<< 53016e6bbdfe621bb62b34fd730f803509df66f2
 #include "supported/SuperMarioKart.hpp"
 #include "supported/ContraIII.hpp"
-=======
 #include "supported/ArkanoidIII.hpp"
->>>>>>> Added rom to the supported list
+#include "supported/SuperDoubleDragon.hpp"
 
 // genesis games
 #include "supported/SonicTheHedgehog.hpp"
@@ -186,6 +184,7 @@ static const RomSettings *roms[]  = {
     new ContraIIISettings(),
     new ArkanoidIIISettings(),
     new BustAMoveSettings(),
+    new SuperDoubleDragonSettings(),
     //	Genesis games
     new SonicTheHedgehogSettings()
     
