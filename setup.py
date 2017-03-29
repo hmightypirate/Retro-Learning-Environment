@@ -57,5 +57,5 @@ setup(name = 'rle_python_interface',
                                              'stella_libretro.so',
                                              'snes9x2010_libretro.so',
                                              'genesis_plus_gx_libretro.so']},
-      cmdclass={'build': Build }
+      #cmdclass={'build': Build }
       )
